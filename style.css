@@ -20,18 +20,18 @@ input {
   font-size: large;
 }
 
-#btn-1 {
+.btn-1 {
   padding: 0.5rem;
   margin-top: 1rem;
   border-radius: 0.5rem;
   cursor: pointer;
 }
 
-#btn-1:hover {
+.btn-1:hover {
   filter: brightness(110%);
 }
 
-#output-1 {
+.output-1 {
   margin-top: 2rem;
   font-size: 1.5rem;
 }
