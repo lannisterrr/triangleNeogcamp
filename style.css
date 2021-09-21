@@ -4,7 +4,13 @@
   padding: 0;
 }
 
-input {
+:root {
+  --primary-color: #059669;
+  --off-white: #f3f4f6;
+  --dark-gray: #6b7280;
+}
+
+.input {
   display: block;
   margin: 0 auto;
   margin-top: 1rem;
@@ -21,9 +27,7 @@ input {
 }
 
 .btn-1 {
-  padding: 0.5rem;
   margin-top: 1rem;
-  border-radius: 0.5rem;
   cursor: pointer;
 }
 
@@ -34,4 +38,102 @@ input {
 .output-1 {
   margin-top: 2rem;
   font-size: 1.5rem;
+}
+
+/* lists */
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0 0.5rem;
+}
+
+.navigation {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+  margin-top: 0;
+}
+
+.nav-brand {
+  font-weight: bold;
+  font-size: larger;
+  position: relative;
+  right: 40rem;
+}
+
+.navigation .link {
+  color: white;
+  text-decoration: none;
+}
+
+.navigation .nav-pills {
+  text-align: right;
+  margin: 0.6rem 1rem;
+}
+
+.navigation .link-active {
+  font-weight: bold;
+}
+
+.link-center {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+/* button */
+.link {
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.link-primary {
+  max-width: 140px;
+  padding: 0.6rem 1.2rem;
+  background-color: var(--primary-color);
+  color: #fff;
+  margin: 1rem auto;
+  border-radius: 1rem;
+}
+
+.container-center {
+  max-width: 900px;
+  width: 100%;
+  margin: auto;
+}
+
+.quiz-btn {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.questions {
+  margin: 1rem 0;
+  font-size: larger;
+}
+
+.question-container label {
+  font-size: 1.2rem;
+  margin-left: 2.5rem;
+}
+
+.quiz-result {
+  text-align: center;
+  font-size: x-large;
+}
+
+.quiz-heading {
+  padding: 1rem;
+  text-align: center;
+}
+
+input {
+  padding: 0.3rem;
+}
+
+.question-container {
+  margin-top: 2rem;
 }

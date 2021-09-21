@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../style.css" />
     <title>Document</title>
   </head>
   <body>
@@ -12,33 +12,37 @@
       <div class="nav-brand">Fun With Trianlges</div>
       <ul class="list-non-bullet nav-pills">
         <li class="list-item-inline">
-          <a class="link link-active" href="/">isTriangle</a>
+          <a class="link" href="../index.html">isTriangle</a>
         </li>
         <li class="list-item-inline">
-          <a class="link" href="pages/quiz.html">Trianlge Quiz</a>
+          <a class="link" href="quiz.html">Trianlge Quiz</a>
         </li>
         <li class="list-item-inline">
-          <a class="link" href="pages/area.html">Calculate Area</a>
+          <a class="link" href="area.html">Calculate Area</a>
         </li>
         <li class="list-item-inline">
-          <a class="link" href="pages/hypotonuese.html">Hypotonuese</a>
+          <a class="link link-active" href="hypotonuese.html">Hypotonuese</a>
         </li>
       </ul>
     </nav>
     <div class="container container-1">
-      <h1>Is Triangle?</h1>
+      <h1>Calculate Hypotenuse of a triangle</h1>
       <label for="input-1"></label>
-      <p class="heading-page-1">Angle1</p>
+      <p class="heading-page-1">Enter base value (a) =</p>
       <input class="input" type="number" id="input-1" />
       <label for="input-2"></label>
-      <p class="heading-page-1">Angle2</p>
+      <p class="heading-page-1">Enter height value (b) =</p>
       <input class="input" type="number" id="input-2" />
-      <label for="input-3"></label>
-      <p class="heading-page-1">Angle3</p>
-      <input class="input" type="number" id="input-3" />
-      <button class="btn-1 link link-primary" id="btn-1">isTrianlge?</button>
+      <button class="btn-1 link link-primary" id="btn-2">
+        Calculate Hypotenuse
+      </button>
+      <br />
+      <br />
+      <h2>Hypotenuse formula</h2>
+      <h3>√(base² + height²)</h3>
+
       <h3 class="output-1" id="output-1"></h3>
     </div>
-    <script src="isTriangle.js"></script>
+    <script src="../scripts/hypotonuese.js"></script>
   </body>
 </html>

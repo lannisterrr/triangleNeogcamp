@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navigation container">
+      <div class="nav-brand">Fun With Trianlges</div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link" href="../index.html">isTriangle</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link link-active" href="quiz.html">Trianlge Quiz</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="area.html">Calculate Area</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="hypotonuese.html">Hypotonuese</a>
+        </li>
+      </ul>
+    </nav>
+    <h1 class="quiz-heading">Triangle Quiz</h1>
+    <form class="quiz-form">
+      <div class="container question-container">
+        <p class="questions">
+          What is the third angle for the triangle where angle1 = 45° and angle2
+          = 45°?
+        </p>
+        <label> <input type="radio" name="question1" value="45°" /> 45° </label>
+        <label> <input type="radio" name="question1" value="60°" /> 60° </label>
+        <label> <input type="radio" name="question1" value="90°" /> 90° </label>
+      </div>
+      <div class="container question-container">
+        <p class="questions">
+          What is the third angle for the triangle where angle1 = 45° and angle2
+          = 45°?
+        </p>
+        <label>
+          <input type="radio" name="question2" value="obtuse" /> obtuse
+        </label>
+        <label>
+          <input type="radio" name="question2" value="acute" /> acute
+        </label>
+        <label>
+          <input type="radio" name="question2" value="right angled" /> right
+          angled
+        </label>
+      </div>
+      <div class="container question-container">
+        <p class="questions">
+          What do you call a triangle whose sides are all equal?
+        </p>
+        <label>
+          <input type="radio" name="question3" value="Equilateral" />
+          Equilateral
+        </label>
+        <label>
+          <input type="radio" name="question3" value="Isosceles" /> Isosceles
+        </label>
+        <label>
+          <input type="radio" name="question3" value="Scalene" /> Scalene
+        </label>
+      </div>
+      <div class="container question-container">
+        <p class="questions">Isoscele triangle is defined as</p>
+        <label>
+          <input type="radio" name="question4" value="Two sides are equal" />
+          Two sides are equal
+        </label>
+        <label>
+          <input type="radio" name="question4" value="All sides are equal" />
+          All sides are equal
+        </label>
+        <label>
+          <input type="radio" name="question4" value="No sides are equal" /> No
+          sides are equal
+        </label>
+      </div>
+    </form>
+    <div class="quiz-btn">
+      <button class="btn-1 link link-primary" id="submit-answer-btn">
+        Check
+      </button>
+    </div>
+
+    <br />
+    <h3 class="quiz-result" id="output"></h3>
+    <script src="../scripts/quiz.js"></script>
+  </body>
+</html>
